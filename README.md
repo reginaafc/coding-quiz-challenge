@@ -1,5 +1,5 @@
 # Coding Quiz Challenge
-Click here to go to the website: <https://reginaafc.github.io/coding-quiz/Develop/index.html>
+Click here to go to the website: <https://reginaafc.github.io/coding-quiz-challenge/Develop/index.html>
 
 ## Description 📝
 
@@ -15,7 +15,7 @@ Here's a table of contents to make it easier to find what what you are looking f
 You will have 75 seconds to answer 5 questions about JavaScript, if you don't answer correctly, you will be penalized with 10 seconds. At the end you can submit your initials to compare your score with others. Have fun! :)
 
 ## Installation 💻
-Once you are in my gitgub repository for this project, <https://github.com/reginaafc/coding-quiz>: 
+Once you are in my gitgub repository for this project, <https://github.com/reginaafc/coding-quiz-challenge>: 
 <br>
 1.- First you need to get the HTTPS or GitHub CLI from the green button in the top right corner that says "Code". 🟢
 <br>
