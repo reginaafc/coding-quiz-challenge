@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Code Quiz</title>
+    <link rel="stylesheet" type="text/css" href="./Assets/Css/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <div>
+        <!-- This is the timer section -->
+        <section class="timer-section">
+          <h5>Time: <span id="timer-count">0 </span></h5>
+        </section>
+
+        <!-- This is the "view highscores menu" -->
+        <section class="view-highscores">
+          <button id="view-btn">view highscores</button>
+        </section>
+      </div>
+
+      <div class="all-questions">
+        <!-- This is the welcome page -->
+        <section id="first-view">
+          <h1>Coding Quiz Challenge</h1>
+          <p>
+            Try to answer the following code-related questions within the time
+            limit. Keep in mind that incorrect answers will penalize your
+            scoretime by <strong>ten</strong> seconds
+          </p>
+          <button class="next" id="start">Start Quiz</button>
+        </section>
+
+        <!-- This is the first question -->
+        <section id="first-question">
+          <h2>1.- Commonly used data types DO NOT include:</h2>
+
+          <button class="wrong-answer next">a) strings</button>
+          <button class="wrong-answer next">b) booleans</button>
+          <button class="correct-answer next">c)alerts</button>
+          <button class="wrong-answer next">d) numbers</button>
+
+          <!-- This is the part where the state of the answer is shown -->
+          <div class="hidden-check">
+            <p>___________________________________________</p>
+            <p class="check-correct-answer"><i>Correct!</i></p>
+            <p class="check-wrong-answer"><i>Wrong!</i></p>
+          </div>
+        </section>
+
+        <!-- This is the first question -->
+        <section id="second-question">
+          <h2>
+            2.- The condition in an if/else statement is enclosed within ____.
+          </h2>
+
+          <button class="wrong-answer next">a) quotes</button>
+          <button class="wrong-answer next">b) curly brackets</button>
+          <button class="correct-answer next">c) parenthesis</button>
+          <button class="wrong-answer next">d) square brackets</button>
+
+          <!-- This is the part where the state of the answer is shown -->
+          <div class="hidden-check">
+            <p>___________________________________________</p>
+            <p class="check-correct-answer"><i>Correct!</i></p>
+            <p class="check-wrong-answer"><i>Wrong!</i></p>
+          </div>
+        </section>
+
+        <!-- This is the third question -->
+        <section id="third-question">
+          <h2>3.- Arrays in JavaScript can be used to store ____.</h2>
+
+          <button class="wrong-answer next">a) numbers and strings</button>
+          <button class="wrong-answer next">b) other arrays</button>
+          <button class="wrong-answer next">c) booleans</button>
+          <button class="correct-answer next">d) all of the above</button>
+
+          <!-- This is the part where the state of the answer is shown -->
+          <div class="hidden-check">
+            <p>___________________________________________</p>
+            <p class="check-correct-answer"><i>Correct!</i></p>
+            <p class="check-wrong-answer"><i>Wrong!</i></p>
+          </div>
+        </section>
+
+        <!-- This is the fourth question -->
+        <section id="fourth-question">
+          <h2>
+            4.- Strings values must be enclosed within _____ when being assigned to
+            variables.
+          </h2>
+
+          <button class="wrong-answer next">a) commas</button>
+          <button class="wrong-answer next">b) curly brackets</button>
+          <button class="correct-answer next">c) quotes</button>
+          <button class="wrong-answer next">d)parenthesis</button>
+
+          <!-- This is the part where the state of the answer is shown -->
+          <div class="hidden-check">
+            <p>___________________________________________</p>
+            <p class="check-correct-answer"><i>Correct!</i></p>
+            <p class="check-wrong-answer"><i>Wrong!</i></p>
+          </div>
+        </section>
+
+        <!-- This is the fifth question -->
+        <section id="fifth-question">
+          <h2>
+            5.- A very useful tool used during development and debugging for
+            printing content to the debugger is:
+          </h2>
+
+          <button class="wrong-answer last-one">a) JavaScript</button>
+          <button class="wrong-answer last-one">b) terminal/bash</button>
+          <button class="wrong-answer last-one">c) for loops</button>
+          <button class="correct-answer next last-one">d)console.log</button>
+
+          <!-- This is the part where the state of the answer is shown -->
+          <div class="hidden-check">
+            <p>___________________________________________</p>
+            <p class="check-correct-answer"><i>Correct!</i></p>
+            <p class="check-wrong-answer"><i>Wrong!</i></p>
+          </div>
+        </section>
+
+        <!-- This is the game over page -->
+        <section id="game-over">
+          <h1>All done!</h1>
+          <h5>Your final score is: <span class="final-score">0 </span></h5>
+          <p>
+            Enter initials:
+            <span><input class="input-initials" type="text" /></span>
+          </p>
+          <button class="submit-button">Submit</button>
+        </section>
+
+        <section id="high-scores">
+          <h1>High Scores:</h1>
+          <ol id="ol-for-score"></ol>
+          <button class="back-btn">Back</button>
+          <button class="reset-btn">Reset</button>
+        </section>
+      </div>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript" src="./Assets/Javascript/java.js"></script>
+  </body>
+</html>
